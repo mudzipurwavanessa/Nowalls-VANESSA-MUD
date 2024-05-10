@@ -1,0 +1,878 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.katama {
+  height: 20vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.karama {
+  margin-top: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.kasama {
+  margin-top: 115px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.vivi {
+  height: 55.7vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.kiki {
+  height: 55.8vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.leyla {
+  width: 278px;
+  margin-left: -5px;
+  margin-bottom: 22px;
+}
+
+.teyla {
+  width: 315px;
+  margin-left: -8px;
+  height: 8.35vh;
+}
+
+.keyla {
+  margin-left: -73.5px;
+  width: 190px;
+  height: 8.35vh;
+}
+
+.reyla {
+  width: 361.5px;
+  height: 8.35vh;
+  position: relative;
+  right: -24px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "myfont2";
+  src: url("/Baloo2-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "myfont";
+  src: url("/BalooBhaijaan-Regular.ttf");
+}
+.logo {
+  margin-right: 50px;
+}
+
+.Nav {
+  font-family: "myfont", BalooBhaijaan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.Nav ul {
+  margin-left: -5px;
+}
+.Nav #mySidebar {
+  margin-left: -84px;
+}
+.Nav .sidebar {
+  height: 136%;
+  width: 410px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 78px;
+  background-color: rgb(0, 62, 84);
+  opacity: 85%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.Nav .sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.5s;
+}
+.Nav .sidebar a:hover {
+  color: rgb(215, 123, 65);
+}
+.Nav .sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.Nav .openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(0, 62, 84);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.Nav .openbtn:hover {
+  background-color: rgb(0, 62, 84);
+}
+.Nav #main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.Nav a {
+  text-decoration: none;
+  font-size: 27px;
+  margin-left: 35px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+}
+.Nav .con {
+  color: rgb(215, 123, 65);
+}
+
+.home {
+  font-family: "myfont", BalooBhaijaan;
+}
+.home h1 {
+  font-size: 92px;
+  font-weight: 900;
+  color: #0A3140;
+}
+.home .head {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.home .hie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home .line3 {
+  color: rgb(215, 123, 65);
+  background-color: rgb(215, 123, 65);
+  height: 5px;
+  width: 98px;
+  border: 1px solid rgb(215, 123, 65);
+  margin-bottom: 13.6px;
+  margin-left: 10px;
+}
+.home h2 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #0A3140;
+}
+.home p {
+  font-weight: bolder;
+}
+.home img {
+  width: 100%;
+}
+.home .nowalls {
+  color: rgb(215, 123, 65);
+  font-size: 50px;
+}
+.home .row {
+  width: 100%;
+}
+.home .img4 {
+  margin-top: 112px;
+}
+
+.home {
+  margin-top: 10px;
+}
+
+.About {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.About img {
+  margin-left: 80px;
+  width: 80%;
+  margin-top: -62px;
+}
+.About h2 {
+  font-family: "myfont", BalooBhaijaan;
+  color: rgb(215, 123, 65);
+  font-size: 46px;
+}
+.About p {
+  font-family: "myfont2", Baloo2;
+  color: rgb(0, 62, 84);
+}
+
+.service {
+  background-color: rgb(0, 62, 84);
+  background-size: cover;
+  padding-top: 23px;
+  padding-bottom: 100px;
+}
+.service .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service .grrr {
+  margin: 78px;
+}
+.service h2 {
+  font-family: "myfont", BalooBhaijaan;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 44px;
+}
+.service .card {
+  background-color: rgb(0, 62, 84);
+  color: white;
+}
+.service a {
+  font-family: "myfont", BalooBhaijaan;
+  text-decoration: none;
+  font-size: 27px;
+  margin-left: 35px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+}
+.service h5 {
+  font-family: "myfont", BalooBhaijaan;
+  color: rgb(215, 123, 65);
+}
+.service .line {
+  width: 323px;
+  border: 1px solid rgb(215, 123, 65);
+  height: 1px;
+  display: flex;
+}
+
+.subscribe {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 90px;
+}
+.subscribe .nove {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe .h2 {
+  font-family: "myfont", BalooBhaijaan;
+  font-size: 44px;
+}
+.subscribe .button {
+  padding-bottom: 10px;
+  align-self: start;
+}
+.subscribe a {
+  background-color: #0B394D;
+  padding: 15px;
+  margin-top: 30px;
+  width: 270px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: "myfont2", Baloo2;
+}
+.subscribe h2 {
+  font-family: "myfont", BalooBhaijaan;
+  color: rgb(215, 123, 65);
+  font-size: 44px;
+}
+
+.contact {
+  background-color: rgb(243, 244, 246);
+  height: 116.8vh;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contact h2 {
+  font-family: "myfont", BalooBhaijaan;
+  font-size: 44px;
+}
+.contact .co {
+  font-family: "myfont2", Baloo2;
+  margin: 80px;
+}
+.contact p {
+  font-family: "myfont2", Baloo2;
+  font-size: 16px;
+}
+.contact img {
+  height: 118vh;
+  width: 100%;
+  margin-bottom: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.contact .forms {
+  font-family: "myfont2", Baloo2;
+  margin-left: 60px;
+  margin-right: 60px;
+  opacity: 65%;
+  color: white;
+  border-color: white;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-family: "myfont2", Baloo2;
+}
+.contact .button {
+  margin-left: 61px;
+  margin-right: 61px;
+  margin-top: 15px;
+  background-color: #0A3140;
+  padding: 10px;
+}
+.contact h2 {
+  font-family: "myfont", BalooBhaijaan;
+  color: rgb(215, 123, 65);
+  font-size: 44px;
+}
+.contact .message {
+  margin-top: 23px;
+  border-style: none;
+}
+
+.Nowalls {
+  font-family: "myfont", BalooBhaijaan;
+  color: white;
+  margin: 10px;
+}
+.Nowalls .image {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("images/Group 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.Nowalls h2 {
+  font-family: "myfont", BalooBhaijaan;
+  font-size: 44px;
+}
+.Nowalls .ppp {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-top: 7px;
+}
+.Nowalls .phonenumber {
+  display: flex;
+  margin-right: px;
+  font-family: "myfont2", Baloo2;
+}
+.Nowalls .samora {
+  font-family: "myfont2", Baloo2;
+  display: flex;
+}
+.Nowalls .samora .woo img {
+  height: 3.4vh;
+}
+.Nowalls .no {
+  padding-left: 20px;
+  padding-top: 2px;
+}
+.Nowalls .ico {
+  padding-left: 100px;
+}
+
+.loggo {
+  font-family: "myfont", BalooBhaijaan;
+}
+.loggo .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  margin: 90px;
+}
+
+.About {
+  margin: 78px;
+}
+
+.opa {
+  opacity: 50%;
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .home {
+    margin: 45px;
+    margin-top: -15px;
+  }
+  .head {
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+  .head h1 {
+    font-size: 26px;
+  }
+  .head h2 {
+    font-size: 19px;
+  }
+  .head .nowalls {
+    font-size: 18px;
+  }
+  .row .keke {
+    display: none;
+  }
+  .row .karama {
+    margin-top: 24px;
+  }
+  .row .lili {
+    display: none;
+  }
+  .row .havani {
+    display: none;
+  }
+  .row .leyla {
+    display: none;
+  }
+  .row .reyla {
+    display: none;
+  }
+  .row .keyla {
+    display: none;
+  }
+  .row .teyla {
+    display: none;
+  }
+  .row .vivi {
+    width: 112%;
+    height: 56vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .hie p {
+    font-size: 10px;
+  }
+  .hie .line3 {
+    width: 50px;
+    height: 3px;
+    margin-left: 3px;
+  }
+  .Nav img {
+    width: 165px;
+    margin-left: 7px;
+  }
+  .Nav .navigation {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Nav .menu {
+    background-color: #0B394D;
+    opacity: 84%;
+    margin-left: 400px;
+  }
+  .Nav .high {
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .Nav .dot {
+    display: none;
+  }
+  .Nav a {
+    font-size: 14px;
+  }
+  .banner img {
+    width: 311px;
+  }
+}
+@media (max-width: 576px) {
+  .About {
+    margin-top: -175px;
+  }
+  .About h2 {
+    font-size: 18px;
+  }
+  .About p {
+    font-size: 10px;
+  }
+  .About .image {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .service {
+    font-size: 12px;
+    width: 377px;
+    margin-top: -140px;
+  }
+  .service .grrr {
+    margin: 43px;
+  }
+  .service h2 {
+    font-size: 18px;
+  }
+  .service .carousel-indicators {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .subscribe {
+    flex-direction: column;
+  }
+  .subscribe h2 {
+    font-size: 20px;
+  }
+  .subscribe .button {
+    align-items: center;
+  }
+  .subscribe a {
+    width: 113px;
+    padding: 7px;
+    font-size: 12px;
+    background-size: 50px;
+  }
+  .subscribe img {
+    width: 332px;
+    height: 40vh;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .contact {
+    height: 135.8vh;
+    margin-top: 25px;
+    background-size: 100%;
+    flex-direction: column;
+  }
+  .contact h2 {
+    font-size: 20px;
+  }
+  .contact .button {
+    margin-top: 26px;
+    width: 300px;
+    margin-left: 27px;
+    border-radius: 5px;
+  }
+  .contact .enquiry {
+    font-size: 10px;
+  }
+  .contact .get {
+    position: relative;
+    top: -450px;
+  }
+  .contact .forms {
+    margin-top: -471px;
+  }
+  .contact img {
+    position: relative;
+    top: -211px;
+    width: 222px;
+  }
+  .contact .form-control {
+    width: 300px;
+  }
+  .contact .forms {
+    margin-left: 25px;
+    margin-right: 60px;
+  }
+  .contact textarea.form-control.mt-4 {
+    width: 113%;
+  }
+}
+@media (max-width: 576px) {
+  .Nowalls .image {
+    background-position: right;
+  }
+  .Nowalls h2 {
+    font-size: 20px;
+  }
+  .Nowalls p {
+    font-size: 12px;
+  }
+  .Nowalls .ppp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    padding-top: 7px;
+  }
+}
+@media (max-width: 576px) {
+  .loggo img {
+    width: 160px;
+    margin-left: 5px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .home {
+    margin-top: 10px;
+  }
+  .head {
+    margin-left: -49px;
+  }
+  .head h1 {
+    font-size: 42px;
+  }
+  .head h2 {
+    font-size: 30px;
+  }
+  .row .keke {
+    width: 223%;
+    margin-left: 169px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 19.8vh;
+    display: none;
+  }
+  .row .lili {
+    width: 203%;
+    position: relative;
+    top: -116px;
+    left: 90px;
+    height: 20vh;
+  }
+  .row .havani {
+    display: none;
+  }
+  .row .leyla {
+    display: none;
+  }
+  .row .reyla {
+    display: none;
+  }
+  .row .karama {
+    display: none;
+  }
+  .navigation {
+    margin-left: -177px;
+  }
+  .navigation #a {
+    display: flex;
+    margin-left: -463px;
+    margin-top: 62px;
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .banner .katama {
+    width: 250%;
+    height: 23vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: -37px;
+  }
+  .Nav .navigation {
+    margin-left: 290px;
+    margin-top: -46px;
+  }
+  .keyla {
+    display: none;
+  }
+  .kasama {
+    height: 23vh;
+    margin-left: -50px;
+  }
+  .teyla img {
+    display: none;
+  }
+  .vivi {
+    display: none;
+  }
+  .logo img {
+    margin-left: -2.5em;
+    width: 163px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .About {
+    margin-top: -223px;
+  }
+  .About img {
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 11px;
+  }
+  .About .hd h2 {
+    font-size: 25px;
+  }
+  .About .hd p {
+    font-size: 10px;
+  }
+  .service {
+    margin-top: -99px;
+  }
+  .service h2 {
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .subscribe {
+    background-size: 400px;
+    flex-direction: column;
+  }
+  .subscribe h2 {
+    font-size: 38px;
+  }
+  .subscribe img {
+    margin-left: -76px;
+    margin-top: 10px;
+  }
+  .subscribe a {
+    width: 203px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .contact {
+    height: 64.8vh;
+  }
+  .contact img {
+    height: 105vh;
+    margin-top: -236px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .Nowalls {
+    background-size: contan;
+  }
+  .Nowalls h2 {
+    font-size: 32px;
+  }
+  .Nowalls p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .loggo img {
+    margin-left: 3px;
+  }
+  .Nowalls .image {
+    background-position: right;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (min-width: 912px) and (max-width: 1024px) {
+  .home .head {
+    margin-top: -93px;
+  }
+  .home .head h1 {
+    font-size: 78px;
+  }
+  .karama {
+    display: none;
+    position: relative;
+    right: -14PX;
+    top: -27px;
+  }
+  .home .katama {
+    position: relative;
+    right: -14PX;
+    top: -30px;
+  }
+  .kasama {
+    position: relative;
+    top: -26px;
+    right: -26px;
+  }
+  .keke img {
+    width: 198%;
+    height: 18.8vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    right: 77PX;
+    top: -15px;
+  }
+  .vivi {
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    right: -34PX;
+    top: -17px;
+    height: 21.7vh;
+    width: 229%;
+  }
+  .teyla {
+    position: relative;
+    top: -70px;
+  }
+  .reyla {
+    position: relative;
+    top: -70px;
+    right: 69px;
+  }
+  .keyla {
+    position: relative;
+    top: -70px;
+  }
+  .leyla {
+    position: relative;
+    top: -70px;
+  }
+  .Nowalls .image {
+    background-position: right;
+  }
+  .contact {
+    height: 47.8vh;
+  }
+  .contact img {
+    height: 47vh;
+  }
+  .About {
+    position: relative;
+    bottom: 248Px;
+    margin: 57px;
+  }
+  .About h2 {
+    font-size: 38px;
+  }
+  .About p {
+    font-size: 12px;
+  }
+  .service {
+    margin-top: -335px;
+  }
+}/*# sourceMappingURL=index.css.map */

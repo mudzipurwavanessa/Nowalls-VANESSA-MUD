@@ -1,0 +1,1182 @@
+$primary-color:rgb(215,123,65);
+$services-color:rgb(0,62,84);
+$formtext-color:rgb(128,151,160);
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+
+}
+.katama{
+    height:20vh;
+    object-fit:cover;
+}
+.karama{
+    margin-top :7px;
+    object-fit:cover;
+}
+.kasama{
+    margin-top: 115px;
+    object-fit:cover;
+}
+.vivi{
+    height: 55.7vh;
+    object-fit:cover;
+
+}
+.kiki{
+    height: 55.8vh;
+    object-fit:cover;
+}
+.leyla{
+    width:278px;
+    margin-left:-5px;
+    margin-bottom:22px;  
+}
+.teyla{
+    width:315px; 
+    margin-left:-8px;
+    height:8.35vh;
+}
+.keyla{
+    margin-left:-73.5px;
+    width:190px;
+    height: 8.35vh;
+}
+.reyla{
+    width:361.5px;
+    height: 8.35vh;
+    position: relative;
+    right: -24px;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "myfont2";
+    src: url("/Baloo2-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "myfont";
+    src: url("/BalooBhaijaan-Regular.ttf");
+}
+
+// Star Nav Bar //
+
+
+.logo{
+    margin-right: 50px;
+}
+.Nav{
+
+    font-family: "myfont", BalooBhaijaan ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 0px;
+
+     
+     ul{
+        margin-left: -5px;
+    }
+    #mySidebar{
+      
+      margin-left: -84px;  
+    }
+    .sidebar {
+        height: 136%;
+        width: 410px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 78px;
+        background-color:$services-color;
+        opacity: 85%;
+        // width: 370px;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.5s;
+      }
+      
+      .sidebar a:hover {
+        color:$primary-color;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      .openbtn {
+        font-size: 25px;
+        cursor: pointer;
+        background-color:$services-color;
+        
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: $services-color;
+      }
+      
+      #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+      }
+    
+// .dropdown-menu.show{
+//     width: 250px;
+//     height: 540px;
+    
+// }
+
+a{
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 35px;
+    font-weight:900 ;
+    color: $services-color;
+
+}
+
+.con{
+    color:  $primary-color;
+}
+
+}
+
+// End Nav Bar //
+
+
+// Start Home //
+
+.home{
+    font-family: "myfont", BalooBhaijaan ;
+   
+    h1{
+        font-size: 92px;
+        font-weight: 900;
+        
+        color: #0A3140;
+    }
+    .head{
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+       justify-content: space-between;
+    }
+
+
+
+    .hie{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+       
+    }
+    .line3{
+        color: $primary-color;
+        background-color: $primary-color;
+        height: 5px;
+        width: 98px;
+        border: 1px solid $primary-color;
+        margin-bottom: 13.6px;
+        margin-left: 10px;
+
+
+    }
+   
+    h2{
+        font-size: 44px;
+        font-weight:900 ;
+        color: #0A3140;
+    }
+        p{
+            font-weight: bolder;
+        }
+
+        img{
+            width: 100%;
+     }
+
+     .nowalls{
+        color: $primary-color;
+        font-size: 50px;
+     }
+
+     .row{
+        width: 100%;
+     }
+
+     .img4{
+        margin-top: 112px;
+
+     }
+    //  .opa{
+    //     opacity: 30%;
+    //  }
+
+}
+.home{
+    
+margin-top: 10px;
+}
+
+// End Home //
+
+
+// Star About //
+
+.About{
+    
+    padding-top: 90px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        margin-left: 80px;
+        width: 80%;
+        margin-top: -62px;
+    }
+    h2{
+        font-family: "myfont", BalooBhaijaan ;
+        color:$primary-color;
+        font-size: 46px;
+    }
+    p{
+        font-family: "myfont2",Baloo2;
+        color: $services-color;
+    }
+    
+
+}
+
+// End About //
+
+
+// Start services //
+
+.service{
+    
+    background-color: $services-color;
+    background-size: cover;
+    padding-top: 23px;
+    padding-bottom: 100px;
+
+    .carousel-indicators{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.grrr{
+    margin: 78px;
+}
+   h2{ font-family: "myfont", BalooBhaijaan ;
+     padding-bottom: 40px;
+     color: white;
+     font-size: 44px;
+   } 
+
+   .card{
+    background-color: $services-color;
+    color: white;
+   }
+// p{
+//     font-weight:lighter  ;
+// }
+
+a{
+    font-family: "myfont", BalooBhaijaan ;
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 35px;
+    font-weight:900 ;
+    color: $services-color;
+}
+
+h5{
+    font-family: "myfont", BalooBhaijaan ;
+    color: $primary-color;
+
+}
+
+.line{
+    width: 323px;
+    border: 1px solid $primary-color;
+    height: 1px;
+    display: flex;
+
+
+ }
+
+}
+
+
+
+.subscribe{
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+
+    
+    .nove{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+     .h2{
+        font-family: "myfont", BalooBhaijaan ;
+        font-size: 44px;
+     }
+   
+   .button{
+    padding-bottom: 10px;
+    align-self: start;
+   }
+
+    a{
+        background-color: #0B394D;
+        padding: 15px;
+        margin-top: 30px;
+        width: 270px;
+        margin-top: 20px;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: "myfont2" , Baloo2;
+    }
+
+    h2{
+        font-family: "myfont", BalooBhaijaan ;
+        color: $primary-color;
+        font-size: 44px;
+    }
+} 
+
+
+// End Subscribe //
+
+
+// Start Contact //
+
+.contact{
+   
+    background-color: rgb(243,244,246);
+    height: 116.8vh;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    // .statue{
+    //     object-fit: cover;
+    // }
+    h2{
+        font-family: "myfont", BalooBhaijaan ;
+        font-size: 44px;
+    }
+
+    .co{
+        font-family: "myfont2",Baloo2;
+        margin: 80px;
+    }
+  p{
+    font-family: "myfont2",Baloo2;
+    font-size: 16px;
+  }  
+
+  img{
+    height: 118vh;
+    width: 100%;
+    margin-bottom: 15px;
+    object-fit: contain;
+
+  }
+  
+
+  .forms{
+    font-family: "myfont2",Baloo2;
+    margin-left: 60px;
+    margin-right: 60px;
+    opacity: 65%;
+    color: white;
+    border-color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: "myfont2",Baloo2;
+   
+  }
+  .button{
+    margin-left: 61px ;
+    margin-right: 61px;
+    margin-top: 15px;
+    background-color: #0A3140;
+    padding: 10px;
+    
+  }
+
+  h2{
+    font-family: "myfont", BalooBhaijaan ;
+    color: $primary-color;
+    font-size: 44px;
+  }
+
+  .message{
+    margin-top: 23px;
+    border-style: none;
+
+  }
+
+  }
+
+
+
+// End Contact //
+
+
+// Start Below Contact //
+
+   .Nowalls{
+    font-family: "myfont", BalooBhaijaan ;
+    color: white;
+    margin:10px;
+    
+    // .woo{
+    //     // margin-right: 200px;
+    //     margin-right: 100px;
+    // }
+
+    // .paraaaa{
+    //     margin-right: 400px;
+    // }
+
+   .image{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("images/Group 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   } 
+   h2{
+    font-family: "myfont", BalooBhaijaan ;
+    font-size: 44px;
+   }
+
+   .ppp{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 7px;
+    
+}
+
+.phonenumber{
+    display: flex;
+    margin-right: px;
+    font-family: "myfont2",Baloo2;
+}
+.samora{
+    font-family: "myfont2",Baloo2;
+    display: flex;
+    .woo{
+        img{
+            height: 3.4vh;
+        }
+    }
+ 
+}
+
+.no{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.ico{
+
+    padding-left: 100px;
+}
+
+
+
+}
+
+// End Below Contact //
+
+
+// Start Footer //
+
+.loggo{
+    font-family: "myfont", BalooBhaijaan ;
+   
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// End Footer //
+
+.home{
+    margin: 90px;
+}
+.About{
+    margin: 78px;
+}
+.opa{
+    opacity: 50%;
+}
+
+
+//media queries
+
+@media (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    .home{
+        margin: 45px;
+margin-top: -15px;
+    }
+   .head{
+    margin-left: -28px;
+    margin-right: -28px;
+    h1{
+        font-size: 26px;
+        
+    }
+    h2{
+        font-size: 19px;
+    }
+    .nowalls{
+        font-size: 18px;
+    }
+    
+   } 
+   .row{
+
+    .keke{
+        display: none;
+    }
+    .karama{
+        margin-top: 24px;
+    }
+    .lili{
+        display: none;
+    }
+    .havani{
+        display: none;
+    }
+    .leyla{
+        display: none;
+    }
+    .reyla{
+        display: none;
+    }
+    .keyla{
+        display: none;
+    }
+    .teyla{
+        display: none;
+    }
+   .vivi{
+    width: 112%;
+    height: 56vh;
+    object-fit: contain;
+   }
+// /
+   }
+   .hie{
+    p{
+        font-size: 10px;
+    }
+    .line3{
+        width: 50px;
+        height: 3px;
+        margin-left: 3px;
+    }
+   }
+.Nav{
+
+    img{
+       width: 165px ;
+       margin-left: 7px;
+    }
+    .navigation{
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .menu{
+        
+        background-color: #0B394D;
+        opacity: 84%;
+        margin-left: 400px;
+    }
+    .high{
+        color: white;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    
+
+    .dot{
+        display: none;
+    }
+    a{
+        font-size: 14px;
+    }
+  
+}
+// .home{
+
+//     img{
+//         width: 183%;
+//         margin-left: -60px;
+//     }
+// }
+.banner{
+  img{
+
+    width: 311px;
+  }
+   
+}
+
+
+}
+
+@media (max-width:576px) {
+  .About{
+    margin-top: -175px;
+    h2{
+      font-size: 18px;  
+    }
+    p{
+        font-size: 10px;
+    }
+    .image{
+        display: none;
+    }
+  } 
+
+  
+
+}
+@media(max-width:576px) {
+    .service{
+    
+        .grrr{
+            margin: 43px;
+        }
+        font-size: 12px;
+        width: 377px;
+        
+    margin-top: -140px;
+    h2{
+        font-size: 18px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+     } 
+    }
+
+    @media(max-width:576px) {
+        .subscribe{
+            // margin-left: -44px;
+            // margin-right: -53px;
+            flex-direction: column;
+            h2{
+                font-size: 20px;
+            }
+            .button{
+                align-items: center;
+            }
+          a{
+            width: 113px;
+            padding: 7px;
+            font-size: 12px;
+           background-size: 50px; 
+          } 
+          img{
+            width: 332px;
+            height: 40vh;  
+            padding: 10px;
+          } 
+        }
+    }
+    @media (max-width:576px){
+
+     .contact{
+        height: 135.8vh;
+        margin-top: 25px;
+        background-size: 100%;
+        flex-direction: column;
+    h2{
+        font-size: 20px;
+    }
+    .button{
+        margin-top: 26px;
+        width: 300px;
+        margin-left: 27px;
+        border-radius: 5px;
+      } 
+    .enquiry{
+        font-size: 10px;
+    }
+
+.get{
+    position: relative;
+    top: -450px;
+}
+    .forms{
+        margin-top: -471px;
+        
+    }
+
+        img{
+            
+            position: relative;
+            top: -211px;
+            width: 222px;
+            
+        }
+
+        .form-control{
+            width:300px;
+            
+            
+        } 
+        .forms{
+            margin-left: 25px;
+            margin-right: 60px;
+        }
+        
+        textarea.form-control.mt-4{
+            width: 113%;
+        }  
+     }  
+   
+    
+    }
+
+    @media(max-width:576px) {
+        .Nowalls{
+            .image{
+                background-position: right;
+            }
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 12px;
+            }
+            .ppp{
+                display: flex;
+                justify-content: space-evenly;
+                margin-left: 30px;
+                padding-top: 7px;
+              } 
+        }
+    }
+
+    @media (max-width:576px) {
+      .loggo{
+       img{
+        width:160px ;
+        margin-left: 5px;
+       } 
+      } 
+     
+    }
+
+
+    @media only screen and (min-width:577px) and (max-width:992px) {
+      
+        .home{
+            margin-top: 10px;
+        }
+        .head{
+            margin-left: -49px;
+            
+            h1{
+               font-size: 42px; 
+            }
+            h2{
+                font-size: 30px;
+            }
+
+        }
+        .row{
+
+            .keke{
+                width: 223%;
+                margin-left: 169px;
+                object-fit: cover;
+                height: 19.8vh;
+                display: none;
+            }
+           
+            .lili{
+                width: 203%;
+        position: relative;
+        top: -116px;
+        left: 90px;
+        height: 20vh;
+        
+                // display: none;
+            }
+            .havani{
+                display: none;
+            }
+            .leyla{
+                display: none;
+            }
+            .reyla{
+                display: none;
+            }
+            .karama{
+                display: none;
+            }
+           
+           }
+           .navigation{
+            margin-left: -177px;
+            #a{
+                display: flex;
+                margin-left: -463px;
+                margin-top: 62px;
+            }
+           }
+          .banner{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .katama{
+                width: 250%;
+                height: 23vh;
+                object-fit: cover;
+                margin-left: -37px;
+            }
+          } 
+          .Nav{
+            .navigation{
+                margin-left: 290px;
+                margin-top: -46px;
+              }
+            
+              
+          }
+          .keyla{
+            display: none;
+          }
+          .kasama{
+            height: 23vh;
+            margin-left: -50px;
+          }
+          .teyla{
+            img{
+            display: none;
+            }
+          }
+          .vivi{
+            display: none;
+        }
+          .logo{
+            img{
+                margin-left: -2.5em;
+                width: 163px;
+            }
+          }
+        
+    }
+    @media only screen and (min-width:577px) and (max-width:992px) {
+        .About{
+            margin-top: -223px;
+            img{
+                width:240px;
+                margin-top: 10px;
+                margin-left:11px ;
+            }
+            .hd{
+                h2{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+        .service{
+            margin-top: -99px;
+            h2{
+                font-size: 38px;
+            }
+        }
+       
+    }
+@media only screen and (min-width:577px) and (max-width:992px){
+    .subscribe{
+        background-size: 400px;
+                    flex-direction: column;
+                    h2{
+                        font-size: 38px;
+                    }
+                    img{
+                        margin-left: -76px;
+                        margin-top: 10px;
+                    }
+                    a{
+                        width: 203px;
+                    }
+                   
+                }
+}
+
+    @media only screen and (min-width:577px) and (max-width:992px) {
+        .contact{
+            height: 64.8vh;
+            img{
+                height: 105vh;
+                margin-top: -236px;
+                object-fit: contain;
+            }
+        }
+    }
+    @media only screen and (min-width:577px) and (max-width:992px) {
+        .Nowalls{
+            background-size: contan;
+            h2{
+               font-size: 32px; 
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    @media only screen and (min-width:577px) and (max-width:992px) {
+        .loggo{
+            img{
+                margin-left: 3px;
+            }
+        }
+        .Nowalls{
+            .image{
+                background-position: right;
+            }
+        }
+    }
+
+    
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+      @media screen and (min-width:576px) {
+       .hamburger{
+        display: none;
+       }
+      }
+
+
+    //   @media screen  and (min-width:912px) and (max-width:1024px){
+    //     .teyla{
+    //         display: none;
+    //     }
+    //     .leyla{
+    //         display: none;
+    //     }
+    //     .reyla{
+    //         display: none;
+    //     }
+    //     .keyla{
+    //         display: none;
+    //     }
+    //     .home{
+    //         .row{
+    //             margin-top: -69px;
+    //         }
+    //         .head{
+    //             span{
+    //                 font-size: 30px;
+    //             }
+    //             h1{
+    //                 font-size: 54px;
+    //             }
+    //             h2{
+    //                 font-size: 35px;
+    //             }
+    //         }
+    //         .banner{
+        
+    //             img{
+    //             //   margin-bottom: 140px;
+    //               object-fit: contain;
+    //               width: 100%;
+    //             //   display: none;
+    //             //   height: 30vh;
+    //             } 
+    //           }
+    //           .keke{
+    //           img{
+    //             height: 31.8vh;
+    //             // width: 192%;
+    //             object-fit: contain;
+    //         // margin-left: -195px;}  
+    //           }
+    //           .lili{
+    //             img{ object-fit: contain;
+    //                 height: 238px;
+    //             // display: none;
+    //             }
+                 
+    //           }
+    //           .havani{
+
+    //          img{
+    //             object-fit: contain;
+    //             width: 440px;
+    //             height: 32.8vh;
+    //             position: relative;
+    //             top: -167px;
+                
+    //          }  
+             
+          
+    //         }
+
+
+     
+//        
+
+@media screen  and (min-width:912px) and (max-width:1024px){
+
+  .home{
+    .head{
+
+    margin-top: -93px;
+       h1{ font-size: 78px;}
+    }
+
+   
+  }  
+  .karama{
+        display: none;
+    position: relative;
+    right: -14PX;
+    top: -27px;
+}
+.home{
+    .katama{
+        position: relative;
+        right: -14PX;
+        top: -30px;
+      
+    }
+}
+
+  .kasama{
+    position: relative;
+    top:-26px ;
+    right: -26px;
+
+  }
+ 
+  .keke{
+    img{
+        width: 198%;
+        height: 18.8vh;
+        object-fit: contain;
+        position: relative;
+        right: 77PX;
+        top: -15px;
+    }
+ 
+  }
+  .vivi{
+        
+    
+        object-fit: contain;
+        position: relative;
+        right: -34PX;
+        top: -17px;
+        height: 21.7vh;
+        width: 229%;
+   
+    
+}
+  .teyla{
+    position: relative;
+    top:-70px ;
+  }
+  .reyla{
+    position: relative;
+    top:-70px ;
+    right: 69px;
+  }
+  .keyla{
+    position: relative;
+    top:-70px ;
+  }
+  .leyla{
+    position: relative;
+    top:-70px ;
+  }
+  .Nowalls{
+    .image{
+        background-position: right;
+    }
+  }
+  .contact{
+    height: 47.8vh;
+    img{
+       height: 47vh; 
+    }
+  }
+  .About{
+    position: relative;
+    bottom: 248Px;
+    h2{
+        font-size: 38px;
+    }
+    p{
+        font-size: 12px;
+    }
+    margin: 57px; ;
+  }
+  .service{
+    margin-top: -335px;
+  }
+}
